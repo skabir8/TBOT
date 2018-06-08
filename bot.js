@@ -7,22 +7,6 @@ var T = new Twit(config);
 var games = []
 
 
-/*
-T.postMediaUpload({ media_data: b64content })
-  .then(function(data) {
-
-    // now we can reference the media and post a tweet (media will attach to the tweet)
-    var mediaIdStr = data.media_id_string
-    var params = { status: 'loving life #nofilter', media_ids: [mediaIdStr] }
-
-    return T.postStatusesUpdate(params);
-  })
-  .then(function(data) {
-    console.log(data);
-  });
-*/
-
-
 
 var makeRun = function(){
   var stream = T.stream('statuses/filter', { track: ['@ShariarKabir14'] });
