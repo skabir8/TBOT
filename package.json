@@ -1,0 +1,22 @@
+{
+  "name": "tbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skabir8/TBOT.git"
+  },
+  "author": "Shariar Kabir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skabir8/TBOT/issues"
+  },
+  "homepage": "https://github.com/skabir8/TBOT#readme",
+  "dependencies": {
+    "python-shell": "^0.5.0"
+  }
+}
