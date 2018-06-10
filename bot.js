@@ -91,7 +91,6 @@ var makeRun = function(){
   var stream = T.stream('statuses/filter', { track: ['@ShariarKabir14'] });
   stream.on('tweet', tweetEvent);
   function tweetEvent(tweet) {
-    console.log("heyyy");
     var name = tweet.user.screen_name;
     var my_user_id = tweet.user.id;
     var txt = tweet.text;
