@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/skabir8/TBOT#readme",
   "dependencies": {
-    "python-shell": "^0.5.0"
+    "python-shell": "^0.5.0",
+    "requests": "^0.2.2",
+    "twit": "^2.2.10",
+    "unirest": "^0.5.1"
   }
 }
